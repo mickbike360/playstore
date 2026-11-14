@@ -15,7 +15,6 @@
 bulle par-dessus **n'importe quel clavier** (on garde son clavier) ; texte écrit **en direct** dans le champ ;
 longs messages (3 min) ; sans champ → presse-papiers. **Modèle visé : achat unique.**
 
-**À ajouter / points faibles** : français seulement pour l'instant (`Moteur.transcribe(..., "fr", ...)`) →
-choix de la langue ; modèle de 264 Mo à télécharger ; règle Google sur l'accessibilité (déclaration + vidéo,
+**Points faibles / à soigner** : (fait en 1.3 : français, anglais, espagnol) ; modèle de 264 Mo à télécharger ; règle Google sur l'accessibilité (déclaration + vidéo,
 risque de refus → plan B clavier) ; Yaps présente « bulle + accessibilité » comme un défaut → bien expliquer
 pourquoi (garder son clavier) et que rien ne sort du téléphone.
