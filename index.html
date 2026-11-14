@@ -1,24 +1,28 @@
 <!doctype html>
-<html lang="fr">
+<html lang="fr" data-lang="fr">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>DownDev360</title>
-<meta name="description" content="DownDev360 — applications Android simples, sans abonnement, qui respectent ta vie privée.">
+<meta name="description" content="DownDev360 — applications Android simples, sans abonnement, qui respectent ta vie privée. Simple Android apps: one-time purchase, no subscription, your data stays on your phone.">
 <style>
   :root {
-    --bg: #f6f7f9; --card: #ffffff; --text: #1d2026; --muted: #5f6672; --accent: #1a73e8; --line: #e3e6eb;
+    --bg: #f6f7f9; --card: #ffffff; --text: #1d2026; --muted: #5f6672; --accent: #1a73e8; --line: #e3e6eb; --chip: #ffffff;
   }
   @media (prefers-color-scheme: dark) {
-    :root { --bg: #121417; --card: #1c1f24; --text: #eceef1; --muted: #a0a7b2; --accent: #8ab4f8; --line: #2c3037; }
+    :root { --bg: #121417; --card: #1c1f24; --text: #eceef1; --muted: #a0a7b2; --accent: #8ab4f8; --line: #2c3037; --chip: #1c1f24; }
   }
   * { box-sizing: border-box; }
   body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.6; }
-  main { max-width: 820px; margin: 0 auto; padding: 48px 16px 64px; }
+  main { max-width: 820px; margin: 0 auto; padding: 24px 16px 64px; }
+  .haut { display: flex; justify-content: flex-end; margin-bottom: 24px; }
+  .langues { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; background: var(--chip); }
+  .langues button { font: inherit; font-size: .9em; border: 0; background: transparent; color: var(--muted); padding: 6px 14px; cursor: pointer; }
+  .langues button[aria-pressed="true"] { background: var(--accent); color: #fff; }
   h1 { font-size: 2.2em; margin: 0; letter-spacing: -0.02em; }
   .tag { color: var(--muted); font-size: 1.1em; margin: 6px 0 32px; }
   .promesses { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 40px; }
-  .promesses span { background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 6px 14px; font-size: .95em; }
+  .promesses span { background: var(--chip); border: 1px solid var(--line); border-radius: 999px; padding: 6px 14px; font-size: .95em; }
   h2 { font-size: 1.3em; margin: 0 0 16px; }
   .app { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 20px 22px; margin-bottom: 16px;
          box-shadow: 0 1px 2px rgba(0,0,0,.06), 0 6px 18px rgba(0,0,0,.05); }
@@ -26,41 +30,89 @@
   .etat { display: inline-block; font-size: .85em; color: var(--muted); margin-bottom: 8px; }
   .app p { margin: 6px 0; }
   a { color: var(--accent); }
+  .testeurs { background: var(--card); border: 1px dashed var(--accent); border-radius: 18px; padding: 18px 22px; margin: 32px 0 0; }
   footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: .95em; }
+  /* une seule langue visible à la fois */
+  html[data-lang="fr"] [lang="en"]:not(html) { display: none !important; }
+  html[data-lang="en"] [lang="fr"]:not(html) { display: none !important; }
 </style>
 </head>
 <body>
 <main>
-  <h1>DownDev360</h1>
-  <p class="tag">Des applications Android simples, utiles, et qui respectent ta vie privée.</p>
-
-  <div class="promesses">
-    <span>💳 Achat unique, pas d'abonnement</span>
-    <span>🔒 Tes données restent sur ton téléphone</span>
-    <span>🚫 Pas de publicité</span>
-    <span>👤 Pas de compte à créer</span>
+  <div class="haut">
+    <div class="langues" role="group" aria-label="Langue / Language">
+      <button type="button" data-set="fr" aria-pressed="true">Français</button>
+      <button type="button" data-set="en" aria-pressed="false">English</button>
+    </div>
   </div>
 
-  <h2>Les applis</h2>
+  <h1>DownDev360</h1>
+  <p class="tag">
+    <span lang="fr">Des applications Android simples, utiles, et qui respectent ta vie privée.</span>
+    <span lang="en">Simple, useful Android apps that respect your privacy.</span>
+  </p>
+
+  <div class="promesses">
+    <span><span lang="fr">💳 Achat unique, pas d'abonnement</span><span lang="en">💳 One-time purchase, no subscription</span></span>
+    <span><span lang="fr">🔒 Tes données restent sur ton téléphone</span><span lang="en">🔒 Your data stays on your phone</span></span>
+    <span><span lang="fr">🚫 Pas de publicité</span><span lang="en">🚫 No ads</span></span>
+    <span><span lang="fr">👤 Pas de compte à créer</span><span lang="en">👤 No account needed</span></span>
+  </div>
+
+  <h2><span lang="fr">Les applis</span><span lang="en">The apps</span></h2>
 
   <div class="app">
     <h3>🎤 DictéePS</h3>
-    <span class="etat">Bientôt sur Google Play</span>
-    <p>Une bulle micro flottante, dans n'importe quelle appli : tu parles, le texte s'écrit en direct dans le champ que tu as touché.
+    <span class="etat"><span lang="fr">Bientôt sur Google Play</span><span lang="en">Coming soon to Google Play</span></span>
+    <p lang="fr">Une bulle micro flottante, dans n'importe quelle appli : tu parles, le texte s'écrit en direct dans le champ que tu as touché.
        La reconnaissance vocale (Whisper) fonctionne entièrement sur le téléphone, sans internet. Français, anglais, espagnol.</p>
-    <p><a href="dicteeps/confidentialite.html">Politique de confidentialité</a></p>
+    <p lang="en">A floating microphone bubble that works in any app: speak, and your words appear live in the text field you tapped.
+       Speech recognition (Whisper) runs entirely on your phone, with no internet. French, English, Spanish.</p>
+    <p>
+      <a href="dicteeps/confidentialite.html"><span lang="fr">Politique de confidentialité</span><span lang="en">Privacy policy</span></a>
+    </p>
   </div>
 
   <div class="app">
-    <h3>🚐 SentierGo</h3>
-    <span class="etat">En préparation</span>
-    <p>Le GPS des camping-cars, partout en Europe.</p>
+    <h3>🥾 Sentier</h3>
+    <span class="etat"><span lang="fr">Bientôt</span><span lang="en">Coming soon</span></span>
+    <p lang="fr">L'appli de randonnée : enregistre tes sorties (distance, dénivelé), prépare tes itinéraires sur la carte et suis ta progression.
+       Sans abonnement : tu l'achètes une fois, elle est à toi.</p>
+    <p lang="en">The hiking app: record your outings (distance, elevation), plan routes on the map and track your progress.
+       No subscription: buy it once, it's yours.</p>
+  </div>
+
+  <div class="testeurs">
+    <strong><span lang="fr">🙋 Envie de tester avant tout le monde ?</span><span lang="en">🙋 Want to try the apps first?</span></strong>
+    <p lang="fr">Je cherche des testeurs Android. Envoie ton adresse Gmail à <a href="mailto:downdev360@gmail.com">downdev360@gmail.com</a> :
+       tu recevras un lien pour installer l'appli gratuitement depuis le Play Store.</p>
+    <p lang="en">I'm looking for Android testers. Send your Gmail address to <a href="mailto:downdev360@gmail.com">downdev360@gmail.com</a>
+       and you'll get a link to install the app for free from the Play Store.</p>
   </div>
 
   <footer>
-    Contact : <a href="mailto:downdev360@gmail.com">downdev360@gmail.com</a><br>
-    <span lang="en">DownDev360 — simple Android apps: one-time purchase, no subscription, no ads, your data stays on your phone.</span>
+    Contact : <a href="mailto:downdev360@gmail.com">downdev360@gmail.com</a>
   </footer>
 </main>
+<script>
+  (function () {
+    var html = document.documentElement;
+    function set(l) {
+      html.setAttribute('data-lang', l);
+      html.setAttribute('lang', l);
+      var b = document.querySelectorAll('.langues button');
+      for (var i = 0; i < b.length; i++) b[i].setAttribute('aria-pressed', b[i].getAttribute('data-set') === l ? 'true' : 'false');
+      try { localStorage.setItem('langue', l); } catch (e) {}
+    }
+    var l = null;
+    try { l = localStorage.getItem('langue'); } catch (e) {}
+    if (!l) l = (navigator.language || 'fr').slice(0, 2) === 'fr' ? 'fr' : 'en';
+    set(l);
+    document.querySelector('.langues').addEventListener('click', function (e) {
+      var v = e.target.getAttribute && e.target.getAttribute('data-set');
+      if (v) set(v);
+    });
+  })();
+</script>
 </body>
 </html>
