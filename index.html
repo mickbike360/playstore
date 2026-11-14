@@ -29,6 +29,8 @@
   .app h3 { margin: 0 0 4px; font-size: 1.2em; }
   .etat { display: inline-block; font-size: .85em; color: var(--muted); margin-bottom: 8px; }
   .app p { margin: 6px 0; }
+  .app ul { margin: 8px 0; padding-left: 1.2em; }
+  .app li { margin: 4px 0; }
   a { color: var(--accent); }
   .testeurs { background: var(--card); border: 1px dashed var(--accent); border-radius: 18px; padding: 18px 22px; margin: 32px 0 0; }
   footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: .95em; }
@@ -63,14 +65,57 @@
 
   <div class="app">
     <h3>🎤 DictéePS</h3>
-    <span class="etat"><span lang="fr">Bientôt sur Google Play</span><span lang="en">Coming soon to Google Play</span></span>
-    <p lang="fr">Une bulle micro flottante, dans n'importe quelle appli : tu parles, le texte s'écrit en direct dans le champ que tu as touché.
-       La reconnaissance vocale (Whisper) fonctionne entièrement sur le téléphone, sans internet. Français, anglais, espagnol.</p>
-    <p lang="en">A floating microphone bubble that works in any app: speak, and your words appear live in the text field you tapped.
-       Speech recognition (Whisper) runs entirely on your phone, with no internet. French, English, Spanish.</p>
+    <span class="etat"><span lang="fr">Transcripteur vocal · Bientôt sur Google Play</span><span lang="en">Voice-to-text · Coming soon to Google Play</span></span>
+    <p lang="fr"><strong>Tu parles, ça s'écrit. Partout.</strong> DictéePS est un transcripteur de dictée, et seulement ça : une petite bulle micro
+       qui flotte sur ton écran. Touche un champ de texte (WhatsApp, SMS, mail, notes, réseaux sociaux…), touche la bulle,
+       parle : ton texte apparaît en direct, ponctuation comprise.</p>
+    <p lang="en"><strong>Speak, and it's written. Anywhere.</strong> DictéePS is a dictation transcriber, and only that: a small microphone bubble
+       floating on your screen. Tap a text field (WhatsApp, SMS, email, notes, social media…), tap the bubble, speak: your text appears live,
+       punctuation included.</p>
+    <ul lang="fr">
+      <li><strong>100 % sur ton téléphone</strong> : la reconnaissance vocale Whisper tourne sur l'appareil. Ta voix et tes messages ne sortent jamais, même sans réseau.</li>
+      <li><strong>Garde ton clavier</strong> : la bulle marche par-dessus n'importe quel clavier, dans n'importe quelle appli.</li>
+      <li><strong>Les longs messages aussi</strong> : jusqu'à 3 minutes d'affilée, le texte suit pendant que tu parles.</li>
+      <li><strong>Rien ne se perd</strong> : sans champ de texte, ce que tu dictes est copié, il suffit de le coller.</li>
+      <li><strong>Français, anglais, espagnol</strong>, et l'envoi automatique du message si tu le veux.</li>
+      <li><strong>Pas de compte, pas d'abonnement, pas de pub</strong> : tu l'installes, elle marche.</li>
+    </ul>
+    <ul lang="en">
+      <li><strong>100% on your phone</strong>: Whisper speech recognition runs on the device. Your voice and messages never leave it, even offline.</li>
+      <li><strong>Keep your keyboard</strong>: the bubble works on top of any keyboard, in any app.</li>
+      <li><strong>Long messages too</strong>: up to 3 minutes at a time, the text keeps up as you speak.</li>
+      <li><strong>Nothing gets lost</strong>: with no text field, your dictation is copied, just paste it.</li>
+      <li><strong>French, English, Spanish</strong>, and optional automatic sending of the message.</li>
+      <li><strong>No account, no subscription, no ads</strong>: install it and it works.</li>
+    </ul>
+    <p lang="fr">Simple comme une touche, complète pour tous les jours : DictéePS n'a rien à envier aux meilleures applis de dictée.</p>
+    <p lang="en">As simple as one tap, complete enough for every day: DictéePS stands up to the best dictation apps.</p>
     <p>
       <a href="dicteeps/confidentialite.html"><span lang="fr">Politique de confidentialité</span><span lang="en">Privacy policy</span></a>
     </p>
+  </div>
+
+  <div class="app">
+    <h3>🤖 DictéeX</h3>
+    <span class="etat"><span lang="fr">Assistant vocal · En développement, pas encore disponible</span><span lang="en">Voice assistant · In development, not available yet</span></span>
+    <p lang="fr"><strong>La grande sœur de DictéePS.</strong> Toute la dictée de DictéePS, plus un assistant vocal intelligent (IA Claude) qui agit
+       vraiment sur ton téléphone. Elle est pour l'instant réservée à un usage personnel, le temps de la peaufiner. Ce qu'elle saura faire :</p>
+    <p lang="en"><strong>DictéePS's big sister.</strong> All of DictéePS's dictation, plus a smart voice assistant (Claude AI) that actually acts on
+       your phone. For now it's for personal use only, while it gets polished. What it will be able to do:</p>
+    <ul lang="fr">
+      <li><strong>Piloter le téléphone à la voix</strong> : « ouvre WhatsApp », « cherche ce film sur Netflix », « envoie un message à… ». L'assistant lit l'écran, touche, écrit et fait défiler à ta place.</li>
+      <li><strong>Répondre à voix haute</strong> à tes questions, et tenir une vraie conversation.</li>
+      <li><strong>Commandes instantanées, même hors ligne</strong> : heure, date, batterie, volume, lampe, ouvrir une appli, recherche web, itinéraire.</li>
+      <li><strong>Une seule bulle pour tout</strong> : dans un champ de texte elle écrit, ailleurs elle t'écoute comme assistant.</li>
+      <li><strong>Installation guidée</strong> de l'assistant, pas à pas, directement depuis l'appli.</li>
+    </ul>
+    <ul lang="en">
+      <li><strong>Control your phone by voice</strong>: "open WhatsApp", "find this movie on Netflix", "send a message to…". The assistant reads the screen, taps, types and scrolls for you.</li>
+      <li><strong>Answers out loud</strong> and holds a real conversation.</li>
+      <li><strong>Instant commands, even offline</strong>: time, date, battery, volume, flashlight, open an app, web search, directions.</li>
+      <li><strong>One bubble for everything</strong>: in a text field it types, anywhere else it listens as your assistant.</li>
+      <li><strong>Guided setup</strong> of the assistant, step by step, right from the app.</li>
+    </ul>
   </div>
 
   <div class="app">
