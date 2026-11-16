@@ -14,6 +14,8 @@ dicteeps/
 <appli>/                    même chose pour chaque appli suivante (sentiergo…)
 ```
 
+- `mentions-legales.html` : mentions légales (éditeur, hébergeur GitHub, ventes et remboursements), FR/EN.
+
 ## Ce qui ne va JAMAIS ici
 
 - La **clé d'envoi** Play Store (`downdev360-upload.jks` et son mot de passe) : sur la tablette, sur MEGA
