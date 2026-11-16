@@ -20,7 +20,8 @@ pas toujours des pages officielles : **à revérifier sur les fiches Play avant 
   concurrents presque tous en abonnement annuel (17 à 80 € par an).
 - **Tes sorties restent sur le téléphone** : pas de compte, pas de pub, pas de statistiques.
   Attention, ce n'est pas « rien ne sort » : météo (Open-Meteo), tracé (BRouter), tuiles de carte,
-  et le partage en direct facultatif (Firebase) envoient des positions. La fiche doit le dire ainsi.
+  envoient des positions, ce qui est normal pour un suivi sportif. Le partage en direct (Firebase)
+  est retiré de la version Play (décision du 16/11/2026). Appli traduite FR/EN/ES.
 - **Mesure juste** : distance par l'effet Doppler du GPS, dénivelé recalculé sur
   le relief, pause automatique, reprise après un arrêt.
 - **Cartes pour marcher** : IGN, photo aérienne, topo, fond « Sentier » maison ;
