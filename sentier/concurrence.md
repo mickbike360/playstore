@@ -18,7 +18,9 @@ pas toujours des pages officielles : **à revérifier sur les fiches Play avant 
 
 - **Achat unique, sans abonnement, sans compte, sans publicité** : face à des
   concurrents presque tous en abonnement annuel (17 à 80 € par an).
-- **Tout reste sur le téléphone** : aucune sortie, aucune position envoyée sur un serveur.
+- **Tes sorties restent sur le téléphone** : pas de compte, pas de pub, pas de statistiques.
+  Attention, ce n'est pas « rien ne sort » : météo (Open-Meteo), tracé (BRouter), tuiles de carte,
+  et le partage en direct facultatif (Firebase) envoient des positions. La fiche doit le dire ainsi.
 - **Mesure juste** : distance par l'effet Doppler du GPS, dénivelé recalculé sur
   le relief, pause automatique, reprise après un arrêt.
 - **Cartes pour marcher** : IGN, photo aérienne, topo, fond « Sentier » maison ;
@@ -38,7 +40,12 @@ pas toujours des pages officielles : **à revérifier sur les fiches Play avant 
 - Captures d'écran : ne pas montrer les vraies sorties de Micka (son lieu de vie).
   Utiliser un parcours de démonstration.
 
-## Prix proposé
+## Prix retenu
+
+**6,99 €** en achat unique (choix de Micka, 16/11/2026) : saisir le prix HT dans la Console
+(≈ 5,83 €) et vérifier que l'affichage TTC tombe bien sur 6,99 €.
+
+## Prix proposé (avant décision)
 
 Achat unique **entre 6,99 € et 9,99 €**. C'est moins d'un an d'abonnement de n'importe quel
 concurrent, et nettement moins que l'OsmAnd à vie. Comme pour DictéePS, les testeurs du
