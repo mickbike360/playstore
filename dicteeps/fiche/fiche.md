@@ -45,7 +45,7 @@ Jusqu'à 3 minutes d'affilée : le texte suit pendant que tu parles. Sans champ 
 Pour la dictée comme pour l'appli. En option, l'envoi automatique du message à la fin de la dictée.
 
 🎚️ CHOISIS TA RECONNAISSANCE VOCALE
-Cinq modèles, du plus léger (44 Mo, très rapide) au plus précis (Large v3 Turbo). Installe-en plusieurs et change quand tu veux. Chaque téléchargement est vérifié et reprend tout seul en cas de coupure.
+Cinq modèles, du plus léger (41 Mo, très rapide) au plus précis (Large v3 Turbo). Installe-en plusieurs et change quand tu veux. Chaque téléchargement est vérifié et reprend tout seul en cas de coupure.
 
 🎨 TA BULLE, À TON GOÛT
 Transparence réglable, neuf motifs au trait (micro, ondes, bulle, sourire, étoile, cœur, note, lune, éclair) et une dizaine de couleurs.
@@ -57,7 +57,7 @@ Tu l'achètes une fois, elle est à toi. Pas d'abonnement, pas d'achat dans l'ap
 DictéePS utilise le service d'accessibilité d'Android uniquement pour afficher la bulle par-dessus les autres applis, écrire le texte dicté dans le champ que tu as touché et, si tu actives l'option, appuyer sur le bouton Envoyer. Elle ne lit pas le contenu de ton écran pour autre chose, n'écrit jamais dans les champs de mot de passe et n'envoie aucune donnée.
 
 — Bon à savoir —
-• Internet sert uniquement à télécharger le modèle de reconnaissance vocale que tu choisis (de 44 Mo à 574 Mo). Ensuite, tout marche hors ligne.
+• Internet sert uniquement à télécharger le modèle de reconnaissance vocale que tu choisis (de 41 Mo à 547 Mo). Ensuite, tout marche hors ligne.
 • Android 10 ou plus récent.
 • Une question, une idée ? downdev360@gmail.com
 
@@ -89,7 +89,7 @@ Up to 3 minutes at a time: the text keeps up as you speak. With no text field, y
 For dictation and for the app itself. Optionally, the message is sent automatically when you finish.
 
 🎚️ PICK YOUR SPEECH RECOGNITION
-Five models, from the lightest (44 MB, very fast) to the most accurate (Large v3 Turbo). Install several and switch anytime. Every download is verified and resumes on its own if interrupted.
+Five models, from the lightest (41 MB, very fast) to the most accurate (Large v3 Turbo). Install several and switch anytime. Every download is verified and resumes on its own if interrupted.
 
 🎨 YOUR BUBBLE, YOUR WAY
 Adjustable transparency, nine line icons (mic, sound waves, speech bubble, smiley, star, heart, note, moon, lightning) and about ten colours.
@@ -101,7 +101,7 @@ Buy it once, it's yours. No subscription, no in-app purchases.
 DictéePS uses Android's accessibility service only to show the bubble on top of other apps, write the dictated text into the text field you tapped and, if you enable the option, press the Send button. It does not read your screen content for anything else, never writes into password fields and sends no data.
 
 — Good to know —
-• Internet is used only to download the speech recognition model you choose (44 MB to 574 MB). After that, everything works offline.
+• Internet is used only to download the speech recognition model you choose (41 MB to 547 MB). After that, everything works offline.
 • Android 10 or later.
 • Questions or ideas? downdev360@gmail.com
 
@@ -133,7 +133,7 @@ Hasta 3 minutos seguidos: el texto te sigue mientras hablas. Sin campo de texto,
 Para el dictado y para la app. Opcionalmente, el mensaje se envía solo al terminar.
 
 🎚️ ELIGE TU RECONOCIMIENTO DE VOZ
-Cinco modelos, del más ligero (44 MB, muy rápido) al más preciso (Large v3 Turbo). Instala varios y cambia cuando quieras. Cada descarga se verifica y se reanuda sola si se corta.
+Cinco modelos, del más ligero (41 MB, muy rápido) al más preciso (Large v3 Turbo). Instala varios y cambia cuando quieras. Cada descarga se verifica y se reanuda sola si se corta.
 
 🎨 TU BURBUJA, A TU GUSTO
 Transparencia ajustable, nueve iconos de trazo (micrófono, ondas, bocadillo, sonrisa, estrella, corazón, nota, luna, rayo) y una decena de colores.
@@ -145,6 +145,6 @@ La compras una vez y es tuya. Sin suscripción, sin compras dentro de la app.
 DictéePS usa el servicio de accesibilidad de Android solo para mostrar la burbuja encima de otras apps, escribir el texto dictado en el campo que has tocado y, si activas la opción, pulsar el botón Enviar. No lee el contenido de tu pantalla para nada más, nunca escribe en campos de contraseña y no envía ningún dato.
 
 — Bueno saber —
-• Internet solo se usa para descargar el modelo de reconocimiento de voz que elijas (de 44 MB a 574 MB). Después, todo funciona sin conexión.
+• Internet solo se usa para descargar el modelo de reconocimiento de voz que elijas (de 41 MB a 547 MB). Después, todo funciona sin conexión.
 • Android 10 o posterior.
 • ¿Preguntas o ideas? downdev360@gmail.com
