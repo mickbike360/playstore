@@ -24,7 +24,7 @@ Règle Google : pas de « meilleur », « n° 1 », prix ou promotion dans le ti
 **Titre** : Sentier – Rando & GPS
 
 **Description courte** (≤ 80) :
-Tes randos et sorties vélo mesurées juste. Achat unique, sans compte ni pub.
+Tes randos et sorties vélo mesurées juste. Tes données restent chez toi.
 
 **Description complète** :
 
@@ -74,7 +74,7 @@ Pas d'abonnement, pas d'achat dans l'appli.
 **Title**: Sentier – Hiking GPS Tracker
 
 **Short description** (≤ 80):
-Hikes and rides measured right. One-time purchase, no account, no ads.
+Hikes and rides measured right. Your data stays on your phone.
 
 **Full description**:
 
@@ -124,7 +124,7 @@ No subscription, no in-app purchases.
 **Título**: Sentier – GPS de senderismo
 
 **Descripción breve** (≤ 80):
-Tus rutas a pie y en bici, bien medidas. Pago único, sin cuenta ni anuncios.
+Tus rutas a pie y en bici, bien medidas. Tus datos se quedan contigo.
 
 **Descripción completa**:
 
