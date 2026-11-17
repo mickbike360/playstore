@@ -41,6 +41,9 @@ Carte IGN, photo aérienne, carte topo et fond « Sentier » maison. Sentiers ba
 🧭 TES ITINÉRAIRES
 Import GPX et KML, éditeur qui accroche ton tracé aux chemins, retouche point par point, alerte si tu quittes la trace. Une sortie devient un itinéraire d'un geste.
 
+📡 PARTAGE DE SUIVI
+En zone isolée, envoie un lien à tes proches : ils suivent ta position en direct dans leur navigateur, sans appli ni compte. Le partage s'arrête et s'efface à la fin de la sortie.
+
 ❤️ CARDIO
 Ceinture, montre ou bracelet Bluetooth : pouls en couleur, zones, courbe sur le profil.
 
@@ -54,7 +57,7 @@ Revis tes sorties en survol, sur le relief et la photo aérienne. Raideur et pen
 Historique, régularité semaine après semaine, records.
 
 🔒 TES DONNÉES CHEZ TOI
-Tes sorties restent sur ton téléphone : pas de compte, pas de serveur, pas de statistiques. Sauvegarde complète dans un fichier, traces en GPX lisibles partout.
+Tes sorties restent sur ton téléphone : pas de compte, pas de statistiques. Seul le partage de suivi, si tu le lances, passe par un serveur, le temps de la sortie. Sauvegarde complète dans un fichier, traces en GPX lisibles partout.
 
 💳 ACHAT UNIQUE
 Pas d'abonnement, pas d'achat dans l'appli.
@@ -91,6 +94,9 @@ French IGN map, French aerial imagery, topo map and a custom "Sentier" style. Ma
 🧭 YOUR ROUTES
 GPX and KML import, an editor that snaps your route to the trails, point-by-point editing, off-route alerts. Turn any outing into a route in one tap.
 
+📡 LIVE TRACKING
+Heading somewhere remote? Send your loved ones a link: they follow your position live in their browser, with no app or account. Sharing stops and is erased when your outing ends.
+
 ❤️ HEART RATE
 Bluetooth chest strap, watch or band: colour-coded pulse, zones, curve on the profile.
 
@@ -104,7 +110,7 @@ Relive your outings in a flyover over the terrain and aerial imagery. Steepness 
 History, week-by-week consistency, records.
 
 🔒 YOUR DATA STAYS YOURS
-Your outings stay on your phone: no account, no server, no analytics. Full backup to a file, tracks as GPX readable anywhere.
+Your outings stay on your phone: no account, no analytics. Only live tracking, if you start it, goes through a server, for the length of the outing. Full backup to a file, tracks as GPX readable anywhere.
 
 💳 ONE-TIME PURCHASE
 No subscription, no in-app purchases.
@@ -141,6 +147,9 @@ Mapa IGN y foto aérea de Francia, mapa topográfico y estilo « Sentier » prop
 🧭 TUS ITINERARIOS
 Importación GPX y KML, un editor que ajusta tu trazado a los caminos, retoque punto por punto, aviso si te sales de la ruta. Una salida se convierte en itinerario con un gesto.
 
+📡 SEGUIMIENTO EN DIRECTO
+¿Vas a una zona aislada? Envía un enlace a los tuyos: siguen tu posición en directo en su navegador, sin app ni cuenta. El seguimiento se detiene y se borra al terminar la salida.
+
 ❤️ PULSO
 Banda pectoral, reloj o pulsera Bluetooth: pulso en color, zonas, curva sobre el perfil.
 
@@ -154,7 +163,7 @@ Revive tus salidas sobrevolando el relieve y la foto aérea. Inclinación y pend
 Historial, regularidad semana a semana, récords.
 
 🔒 TUS DATOS, EN TU CASA
-Tus salidas se quedan en tu teléfono: sin cuenta, sin servidor, sin estadísticas. Copia de seguridad completa en un archivo, trazas en GPX legibles en cualquier sitio.
+Tus salidas se quedan en tu teléfono: sin cuenta, sin estadísticas. Solo el seguimiento en directo, si lo activas, pasa por un servidor durante la salida. Copia de seguridad completa en un archivo, trazas en GPX legibles en cualquier sitio.
 
 💳 PAGO ÚNICO
 Sin suscripción, sin compras dentro de la app.
@@ -175,5 +184,10 @@ Sin suscripción, sin compras dentro de la app.
 - **Localisation approximative et précise** : collectée, **non partagée**, traitée de façon éphémère
   (météo Open-Meteo, tracé BRouter, tuiles de carte), finalité **fonctionnement de l'appli**,
   facultative (l'enregistrement marche sans), chiffrée en transit (HTTPS).
+- **Partage de suivi** (facultatif) : localisation précise + forme physique (fréquence cardiaque si capteur)
+  envoyées à Firebase (Google, Belgique) tant que le partage est actif ; **collectées, non partagées**
+  (Firebase = sous-traitant, et l'envoi au suiveur se fait à la demande de l'utilisateur) ;
+  finalité **fonctionnement de l'appli** ; chiffrées en transit ; **effacées à la fin de la sortie**.
 - Rien d'autre : pas d'identifiant, pas de compte, pas de statistiques, pas de pub.
-- Suppression : rien n'est conservé côté serveur.
+- Suppression : effacement automatique à la fin du partage ; sinon sur demande à downdev360@gmail.com.
+- Déclaration du service de premier plan « localisation » : vidéo montrant l'enregistrement + le partage.

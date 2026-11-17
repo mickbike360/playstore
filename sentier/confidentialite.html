@@ -15,13 +15,13 @@
 </head>
 <body>
 <h1>Sentier</h1>
-<p class="date">Éditeur / Publisher : <strong>DownDev360</strong> — downdev360@gmail.com — 16/11/2026 ·
+<p class="date">Éditeur / Publisher : <strong>DownDev360</strong> — downdev360@gmail.com — 17/11/2026 ·
 <a href="../mentions-legales.html">Mentions légales / Legal notice</a></p>
 <nav><a href="#fr">Français</a><a href="#en">English</a></nav>
 
 <h2 id="fr">Politique de confidentialité</h2>
 <p><strong>En bref : tes sorties restent sur ton téléphone. Pas de compte, pas de publicité, pas de statistiques,
-pas de traceur. DownDev360 ne reçoit aucune donnée.</strong></p>
+pas de traceur. DownDev360 ne reçoit rien, sauf si tu actives toi-même le partage en direct.</strong></p>
 <ul>
   <li><strong>Localisation</strong> : le GPS sert à enregistrer tes sorties (trace, distance, dénivelé, vitesse) et à te
     situer sur la carte. Pendant un enregistrement, un service de premier plan avec une notification permanente
@@ -38,6 +38,12 @@ pas de traceur. DownDev360 ne reçoit aucune donnée.</strong></p>
   <li><strong>Tracé d'itinéraire</strong> : quand tu dessines un itinéraire et demandes qu'il suive les chemins, les
     points que tu as placés sont envoyés au service de calcul BRouter (brouter.de).</li>
   <li><strong>Refuges</strong> : la liste des refuges est téléchargée depuis refuges.info pour la zone affichée.</li>
+  <li><strong>Partage en direct (facultatif, désactivé par défaut)</strong> : si tu le lances pendant une sortie,
+    ta position et les chiffres du moment (distance, dénivelé, temps, sport, fréquence cardiaque si un capteur est
+    connecté) sont envoyés toutes les 25 secondes vers une base Firebase (Google, serveurs en Belgique) gérée par
+    DownDev360, pour que la personne à qui tu as envoyé le lien puisse te suivre sur une page web (hébergée par Netlify), sans appli ni compte. Le lien contient une clé aléatoire
+    impossible à deviner. Tout est effacé de la base quand tu arrêtes le partage ou la sortie (si le réseau manque à ce moment-là, écris-moi et je l'efface à la main). Ces données ne
+    servent à rien d'autre et ne sont jamais vendues ni transmises.</li>
   <li><strong>Bluetooth</strong> : uniquement pour te connecter à une ceinture ou une montre cardio. Les mesures restent
     sur l'appareil.</li>
   <li><strong>Notifications</strong> : état de l'enregistrement et annonces de la sortie.</li>
@@ -49,7 +55,7 @@ Pour toute question : downdev360@gmail.com.</p>
 
 <h2 id="en">Privacy policy</h2>
 <p><strong>In short: your outings stay on your phone. No account, no ads, no analytics, no trackers. DownDev360
-receives no data at all.</strong></p>
+receives nothing, unless you turn on live sharing yourself.</strong></p>
 <ul>
   <li><strong>Location</strong>: GPS is used to record your outings (track, distance, elevation, speed) and to show
     where you are on the map. During a recording, a foreground service with a permanent notification keeps measuring
@@ -65,6 +71,11 @@ receives no data at all.</strong></p>
   <li><strong>Route drawing</strong>: when you draw a route and ask it to follow the trails, the points you placed are
     sent to the BRouter routing service (brouter.de).</li>
   <li><strong>Huts</strong>: the list of mountain huts is downloaded from refuges.info for the area displayed.</li>
+  <li><strong>Live sharing (optional, off by default)</strong>: if you start it during an outing, your position and
+    current figures (distance, elevation, time, sport, heart rate if a sensor is connected) are sent every 25 seconds
+    to a Firebase database (Google, servers in Belgium) run by DownDev360, so that the person you sent the link to can
+    follow you on a web page (hosted by Netlify), with no app or account. The link contains a random key that cannot be guessed. Everything is deleted from the database when
+    you stop sharing or end the outing (if there is no network at that moment, email me and I will delete it by hand). This data is used for nothing else and is never sold or passed on.</li>
   <li><strong>Bluetooth</strong>: only to connect a heart-rate strap or watch. Readings stay on the device.</li>
   <li><strong>Notifications</strong>: recording status and outing announcements.</li>
   <li>No data is sold, used for advertising or passed to any third party beyond the technical services above.</li>
